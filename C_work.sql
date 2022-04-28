@@ -119,14 +119,22 @@ INSERT INTO genres VALUES
 SELECT*FROM genres g ;
 
 INSERT INTO authors VALUES
+<<<<<<< HEAD
   (1,'Steven Landsburgs'),
+=======
+  (1,'Steven Landsburg’s'),
+>>>>>>> main
   (2,'Hans Christian Andersen'),
   (3,'E. L. James'),
   (4,'Candice Fox'),
   (5,'Claudia Rankine'),
   (6,'Phil Knight'),
   (7,'Ichak Kalderon Adizes'),
+<<<<<<< HEAD
   (8,'Cue Steve RichardsÂ’s'),
+=======
+  (8,'Cue Steve Richards’s'),
+>>>>>>> main
   (9,'Dan S. Kennedy'),
   (10,'Jonathan Haidt');
  
@@ -178,6 +186,7 @@ INSERT  books VALUES
 SELECT*FROM books b ;
 
 INSERT INTO  descriptions VALUES
+<<<<<<< HEAD
 (DEFAULT,1,'Steven Landsburgs The Armchair Economist applies real-world situations to economic theory; think: why do celebrity endorsements sell products? Or, do government deficits matter, even why do women pay more at the dry cleaners. The revised edition of this book tackles all this and more, making the economic concepts that much more understandable.',default);
 	
 INSERT INTO  descriptions VALUES
@@ -190,6 +199,20 @@ INSERT INTO  descriptions VALUES
 (DEFAULT,8,'A book stuffed full of roads less travelled. His list of politicians who were once widely tipped for Number 10, only to fall short in the end, ranges from Rab Butler to Neil Kinnock to Jeremy Corbyn and if the latter seems a surprise inclusion, then half the point of a list is arguing about who should or shouldnt have been on it',default),
 (DEFAULT,9,'Here it is: no warm n fuzzies, no academic theories just hard-core strategies from real world trenches the long-overdue management book no one but Dan Kennedy would dare to write',default),
 (DEFAULT,10,'A professor of social psychology, Jonathan Haidt wrote The Happiness Hypothesis as an accessible vessel for his research into moral foundations theory.In this book, Haidt takes the ancient wisdom, or Great Ideas, of historical thinkers  like Buddha, Plato, and even Jesus  and reveals their applications in light of contemporary psychological findings',default);
+=======
+(DEFAULT,1,'Steven Landsburg’s “The Armchair Economist” applies real-world situations to economic theory; think: why do celebrity endorsements sell products? Or, do government deficits matter, even why do women pay more at the dry cleaners. The revised edition of this book tackles all this and more, making the economic concepts that much more understandable.',default);
+	
+INSERT INTO  descriptions VALUES
+(DEFAULT,3,'It became the first instalment in the Fifty Shades novel series that follows the deepening relationship between a college graduate, Anastasia Steele, and a young business magnate, Christian Grey. It is notable for its explicitly erotic scenes featuring elements of sexual practices involving BDSM (bondage/discipline, dominance/submission, and sadism/masochism).',default),
+(DEFAULT,2,'Andersen’s tale “Danish Popular Legends” was first published in The Riverside Magazine for Young People, Vol. IV, pp. 470-474, New York, October 1870. It has never been published in Denmark. The hypertext is based on an etext found in the Andersen Homepage of the Danish National Literary Archive.',default),
+(DEFAULT,4,'The Chase is a modern The Fugitive with characters only #1 New York Times and Globe and Mail bestselling author Candice Fox can write.',default),
+(DEFAULT,5,'The New Yorker, Boston Globe, The Atlantic, BuzzFeed, NPR. Los Angeles Times, Publishers Weekly, Slate, Time Out New York, Vulture, Refinery 29, and many more.A provocative meditation on race, Claudia Rankine Dont Let Me Be Lonely: An American Lyric.',default),
+(DEFAULT,6,'In this candid and riveting memoir, for the first time ever, Nike founder and CEO Phil Knight shares the inside story of the company’s early days as an intrepid start-up and its evolution into one of the world’s most iconic, game-changing, and profitable brands.',default),
+(DEFAULT,7,'Dr. Adizes premise, developed in this book, is that the ideal leader, manager, or executive-ideal in the sense that he can fulfill by himself all the roles necessary for the long-and short-term effectiveness and efficiency of an organization-does not and cannot exist.',default),
+(DEFAULT,8,'A book stuffed full of roads less travelled. His list of politicians who were once widely tipped for Number 10, only to fall short in the end, ranges from Rab Butler to Neil Kinnock to Jeremy Corbyn and if the latter seems a surprise inclusion, then half the point of a list is arguing about who should or shouldn’t have been on it',default),
+(DEFAULT,9,'Here it is: no warm ‘n fuzzies, no academic theories—just hard-core strategies from real world trenches…the long-overdue management book no one but Dan Kennedy would dare to write',default),
+(DEFAULT,10,'A professor of social psychology, Jonathan Haidt wrote The Happiness Hypothesis as an accessible vessel for his research into moral foundations theory.In this book, Haidt takes the ancient wisdom, or “Great Ideas”, of historical thinkers — like Buddha, Plato, and even Jesus — and reveals their applications in light of contemporary psychological findings',default);
+>>>>>>> main
 SELECT *FROM descriptions d ;
 
 INSERT into  ratings VALUES 
@@ -315,7 +338,11 @@ INSERT INTO prices VALUES
 (DEFAULT, 10, '36.99');
 SELECT *FROM  prices ;
 
+<<<<<<< HEAD
 SELECT sum (price) FROM prices p ;
+=======
+SELECT sum(price) FROM prices p ;
+>>>>>>> main
 
 
 
@@ -325,7 +352,11 @@ INSERT INTO authors VALUES
   (14,'Imbolo Mbue'),
   (15,'Walter Isaacson'),
   (16,'Patty McCord'),
+<<<<<<< HEAD
   (17,'Gavin Barwells'),
+=======
+  (17,'Gavin Barwell’s'),
+>>>>>>> main
   (18,'Gavin Kennedy'),
   (19,'Jessi Beyer'),
   (12,'Maira Kalman');
@@ -425,6 +456,7 @@ INSERT into  ratings VALUES
 (DEFAULT,5 ,30,1,default);
 
 INSERT INTO  descriptions VALUES
+<<<<<<< HEAD
 (DEFAULT,22,'Ever wondered why economics, well, matters? MIT economists Abhijit V. Banerjee and Esther Duflo explain just that in their book, Good Economics for Hard Times.',default),
 (DEFAULT,23,'Following her 2016 debut, Behold the Dreamers, Mbues sweeping and quietly devastating second novel begins in 1980 in the fictional African village of Kosawa, where representatives from an American oil company have come to meet with the locals, whose children are dying because of the environmental havoc (fallow fields, poisoned water) wreaked by its drilling and pipelines',default),
 (DEFAULT,24,'Walter Isaacsons "enthralling" (The New Yorker) worldwide bestselling biography of Apple cofounder Steve Jobs',default),
@@ -432,6 +464,15 @@ INSERT INTO  descriptions VALUES
 (DEFAULT,26,'Theresa May would probably love a copy, judging by Gavin Barwells Chief of Staff (Atlantic), a loyal and sensitive account of her attempts to extract something resembling a workable Brexit from the fantasies of the Tory right',default),
 (DEFAULT,27,'Whether you need to ask for a raise at work, request a better hotel room while youre on holiday, or even debate with your stubborn teenager at home, you can learn effective and powerful negotiation skills to help you get the best deal every time',default),
 (DEFAULT,28,'The National Council for Behavioral Health estimates that seven out of every ten people you know will experience a trauma during their lifetimes  perhaps even you. When that happens, though, what do you do? ',default),
+=======
+(DEFAULT,22,'Ever wondered why economics, well, matters? MIT economists Abhijit V. Banerjee and Esther Duflo explain just that in their book, “Good Economics for Hard Times.”',default),
+(DEFAULT,23,'Following her 2016 debut, “Behold the Dreamers,” Mbue’s sweeping and quietly devastating second novel begins in 1980 in the fictional African village of Kosawa, where representatives from an American oil company have come to meet with the locals, whose children are dying because of the environmental havoc (fallow fields, poisoned water) wreaked by its drilling and pipelines',default),
+(DEFAULT,24,'Walter Isaacsons "enthralling" (The New Yorker) worldwide bestselling biography of Apple cofounder Steve Jobs',default),
+(DEFAULT,25,'When it comes to recruiting, motivating, and creating great teams, Patty McCord says most companies have it all wrong.',default),
+(DEFAULT,26,'Theresa May would probably love a copy, judging by Gavin Barwell’s Chief of Staff (Atlantic), a loyal and sensitive account of her attempts to extract something resembling a workable Brexit from the fantasies of the Tory right',default),
+(DEFAULT,27,'Whether you need to ask for a raise at work, request a better hotel room while you’re on holiday, or even debate with your stubborn teenager at home, you can learn effective and powerful negotiation skills to help you get the best deal every time',default),
+(DEFAULT,28,'The National Council for Behavioral Health estimates that seven out of every ten people you know will experience a trauma during their lifetimes – perhaps even you. When that happens, though, what do you do? ',default),
+>>>>>>> main
 (DEFAULT,29,'From PBS - Braids together the stories behind Lincolns appearance at Gettysburg, his speech that day, and its dissemination to explore Lincolns roles as military commander, chief executive, and minister to a wounded and grieving people.',default),
 (DEFAULT,30,'Fans of Who Was? and Jean Fritz will love this introduction to our sixteenth President by beloved author and illustrator Maira Kalman.',default),
 (DEFAULT,21,'Now in paperback, the true story of Marcenia Lyle, an African American girl who grew up to become "Toni Stone," the first woman to play for a professional baseball team',default);
@@ -494,16 +535,28 @@ INSERT INTO orders VALUES
 (DEFAULT, 1,8,1,1,default);
 SELECT*FROM prices p ;
 
+<<<<<<< HEAD
 SELECT r.to_book, COUNT (r.rewiev) FROM rewievs r /* ÃªÃ®Ã«-Ã¢Ã® Ã®Ã²Ã§Ã»Ã¢Ã®Ã¢ Ã¤Ã«Ã¿ ÃªÃ­Ã¨Ã£Ã¨*/
 GROUP BY r.to_book 
 ORDER BY r.to_book ;
 
 SELECT r.from_user r, COUNT (r.rewiev) FROM rewievs r /* ÃªÃ®Ã«-Ã¢Ã® Ã®Ã²Ã§Ã»Ã¢Ã®Ã¢ Ã®Ã² Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¥Ã©*/
+=======
+SELECT r.to_book, COUNT(r.rewiev) FROM rewievs r /* êîë-âî îòçûâîâ äëÿ êíèãè*/
+GROUP BY r.to_book 
+ORDER BY r.to_book ;
+
+SELECT r.from_user r, COUNT(r.rewiev) FROM rewievs r /* êîë-âî îòçûâîâ îò ïîëüçîâàòåëåé*/
+>>>>>>> main
 GROUP BY r.from_user 
 ORDER BY r.from_user ;
 
 
+<<<<<<< HEAD
 /*ÐŸÐ¾Ð´ÑÑ‡ÐµÑ‚ Ñ€ÐµÐ¹Ñ‚Ð¸Ð½Ð³Ð° Ð¿Ð¾ ÐºÐ½Ð¸Ð³Ð°Ð¼*/
+=======
+/*Ïîäñ÷åò ðåéòèíãà ïî êíèãàì*/
+>>>>>>> main
 SELECT avg (grade) AS Rating_book, b.name AS Book_name, a.name AS Autor_book  
 FROM ratings r
 JOIN books b 
@@ -514,10 +567,17 @@ GROUP BY r.to_book;
 
 
 
+<<<<<<< HEAD
 /* Ð’Ð»Ð¾Ð¶ÐµÐ½Ð½Ñ‹Ð¹ Ð·Ð°Ð¿Ñ€Ð¾Ñ: Ð¿Ð¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ, ÐºÐ¾Ñ‚Ð¾Ñ€Ñ‹Ð¹ Ð¾ÑÑ‚Ð°Ð²Ð¸Ð» Ð¼Ð°ÐºÑ ÐºÐ¾Ð»-Ð²Ð¾ reviews*/
 SELECT *FROM rewievs r;
 
 SELECT r.from_user, concat (u.first_name,' ',u.last_name) AS name_user, count(*) AS number_rewievs 
+=======
+/* Âëîæåííûé çàïðîñ: ïîëüçîâàòåëü, êîòîðûé îñòàâèë ìàêñ êîë-âî reviews*/
+SELECT *FROM rewievs r;
+
+SELECT r.from_user, concat(u.first_name,' ',u.last_name) AS name_user, count(*) AS number_rewievs 
+>>>>>>> main
 FROM rewievs r
 JOIN users u 
 ON r.from_user =u.id 
@@ -525,7 +585,11 @@ GROUP BY from_user
 ORDER BY from_user DESC;
 
 SELECT 
+<<<<<<< HEAD
 	(SELECT concat (u.first_name,' ',u.last_name) FROM users u WHERE u.id = ms.from_user) AS U_name
+=======
+	(SELECT concat(u.first_name,' ',u.last_name) FROM users u WHERE u.id = ms.from_user) AS U_name
+>>>>>>> main
 FROM ( 	
 		SELECT 
 			r.from_user, count(*) AS CNT
@@ -539,13 +603,21 @@ ORDER BY
 LIMIT 1
 ;
 
+<<<<<<< HEAD
 /* Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð°Ñ*/
+=======
+/* ïåðåìåííàÿ*/
+>>>>>>> main
 SELECT @number_rewievs := from_user AS U_name, count(*) AS Summary
 FROM rewievs r 
 GROUP BY from_user ; 
 
 
+<<<<<<< HEAD
 /* ÐŸÑ€ÐµÐ´ÑÑ‚Ð°Ð²Ð»ÐµÐ½Ð¸Ðµ Ð´Ð»Ñ Ñ€Ð¹Ñ‚Ð¸Ð½Ð³Ð° Ð¿Ð¾ ÐºÐ½Ð¸Ð³Ð°Ð¼*/
+=======
+/* Ïðåäñòàâëåíèå äëÿ ðéòèíãà ïî êíèãàì*/
+>>>>>>> main
 CREATE VIEW Rating_book_NOW
 AS
 SELECT avg (grade) AS Rating_book, b.name AS Book_name, a.name AS Autor_book  
@@ -558,8 +630,13 @@ GROUP BY r.to_book;
 
 SELECT *FROM  Rating_book_NOW;
 
+<<<<<<< HEAD
 /*Ð¿ÐµÑ€ÐµÐ¼ÐµÐ½Ð½Ð°Ñ*/
 SELECT @price := MAX (price) FROM prices p ;
+=======
+/*ïåðåìåííàÿ*/
+SELECT @price := MAX(price) FROM prices p ;
+>>>>>>> main
 
 SELECT p.book, b.name, p.price FROM prices p  
 JOIN books b 
@@ -567,10 +644,17 @@ ON p.book=b.id
 WHERE price = @price;
 
 
+<<<<<<< HEAD
 /*Ñ„ÑƒÐ½ÐºÑ†Ð¸Ñ Ð¿Ñ€Ð¸Ð²ÐµÑ‚ÑnÐ²Ð¸Ðµ Ð¿Ñ€Ð¸ Ð²Ñ…Ð¾Ð´Ðµ*/
 
 delimiter //
 SELECT now (), HOUR (now ()) //
+=======
+/*ôóíêöèÿ ïðèâåòñnâèå ïðè âõîäå*/
+
+delimiter //
+SELECT now(), HOUR (now()) //
+>>>>>>> main
 
 DROP FUNCTION IF EXISTS hello;
 
@@ -580,7 +664,11 @@ RETURNS tinytext
 DETERMINISTIC
 BEGIN
 	DECLARE HOUR int; 
+<<<<<<< HEAD
 	SET HOUR = HOUR(now ());
+=======
+	SET HOUR = HOUR(now());
+>>>>>>> main
 	CASE
 	WHEN HOUR BETWEEN 0 AND 5
 		THEN 
@@ -599,7 +687,11 @@ END//
 
 SELECT hello ();
 
+<<<<<<< HEAD
 /*Ñ‚Ñ€Ð°Ð½Ð·Ð°ÐºÑ†Ð¸Ñ Ð½Ð° Ð·Ð°ÐºÐ°Ð·*/
+=======
+/*òðàíçàêöèÿ íà çàêàç*/
+>>>>>>> main
 SELECT s.number_book, s.city  FROM storehouse s  WHERE s.book = 1 AND s.city = 'Minsk' ;
 select o.number_book  FROM orders o  WHERE o.from_user = 4;
 
@@ -608,7 +700,11 @@ UPDATE orders o SET o.number_book = o.number_book + 1 WHERE o.from_user = 4;
 UPDATE storehouse s SET s.number_book = s.number_book -1 WHERE city = 'Minsk';
 COMMIT;
 
+<<<<<<< HEAD
 /*Ñ‚Ñ€Ð¸Ð³Ð³ÐµÑ€ Ð½Ð° Ð´Ð¾Ð±Ð²Ð»ÐµÐ½Ð¸Ðµ Ð¾ÑˆÐ¸Ð±ÐºÐ¸ Ð² Ð·Ð°ÐºÐ°Ð·, ÐµÑÐ»Ð¸ ÐºÐ¾Ð»-Ð²Ð¾ Ð¼ÐµÐ½ÑŒÑˆÐµ 1 ÑˆÑ‚*/
+=======
+/*òðèããåð íà äîáâëåíèå îøèáêè â çàêàç, åñëè êîë-âî ìåíüøå 1 øò*/
+>>>>>>> main
 
 DELIMITER //
 CREATE TRIGGER check_order_before_update BEFORE UPDATE ON orders 
@@ -628,7 +724,11 @@ UPDATE orders  SET number_book  = '0' WHERE id = 21;
 INSERT INTO orders VALUES
 (DEFAULT, 5,2,0,5,default);
 
+<<<<<<< HEAD
 /*Ð²Ñ‹Ð²Ð¾Ð´ Ñ€ÐµÐºÐ¾Ð¼ÐµÐ½Ð´Ð°Ñ†Ð¸Ð¹ ÐºÐ½Ð¸Ð³ Ð¿Ð¾ Ð¶Ð°Ð½Ñ€Ð°Ð¼*/
+=======
+/*âûâîä ðåêîìåíäàöèé êíèã ïî æàíðàì*/
+>>>>>>> main
 SELECT b.name FROM books b
 WHERE b.genre = (SELECT DISTINCT g.id  FROM orders o 
 JOIN   books b 
@@ -640,7 +740,11 @@ ORDER BY RAND()
 	LIMIT 2;
 
 
+<<<<<<< HEAD
 /* Ð¿Ñ€Ð¾Ñ†ÐµÐ´ÑƒÑ€Ð°*/
+=======
+/* ïðîöåäóðà*/
+>>>>>>> main
 
 DELIMITER //
 CREATE PROCEDURE show_books (IN name INT UNSIGNED)
@@ -652,7 +756,11 @@ ON o.book =b.id
 JOIN   genres g
 ON b.genre=g.id
 WHERE o.from_user =5)
+<<<<<<< HEAD
 ORDER BY RAND () 
+=======
+ORDER BY RAND() 
+>>>>>>> main
 	LIMIT 2;
 END// 
 
